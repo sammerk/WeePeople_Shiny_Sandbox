@@ -30,7 +30,7 @@ server <- function(input, output, session) {
                       stackratio = 1.5,
                       binwidth = 1,
                       fill = NA) + 
-           # scale_shape_manual(values = c("women" = "👧", "men" = "👦")) +
+            scale_shape_manual(values = c("women" = "👧", "men" = "👦")) +
             scale_x_discrete(limits = c("men", "women")) +
             scale_y_continuous(limits = c(0, 10), breaks = 1:10) +
             theme_minimal() +

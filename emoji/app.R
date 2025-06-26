@@ -4,8 +4,6 @@ library(tibble)
 library(ggplot2)
 
 
-
-
 # Define the UI
 ui <- fluidPage(
     titlePanel("Interactive Dot Plot"),
